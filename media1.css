@@ -1,0 +1,159 @@
+@media (max-width: 1400px) {
+    body {
+        width: 90%;
+        margin: 80px auto;
+    }
+
+    .tudo-card {
+
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        column-gap: 15px;
+
+
+
+    }
+
+    .logo {
+        grid-column: 1;
+    }
+
+
+    .questao {
+        grid-template-columns: 1fr 1fr 1fr ;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        column-gap: 15px;
+
+    }
+    .btn--burguer,
+    .btn--fechar {
+        display: none ;
+        /* opacity: 0; */
+    }
+    /* .fa-bars{
+        display: none ;
+    } */
+
+
+
+}
+
+
+
+
+
+@media (max-width: 1019px) {
+    body {
+        width: 90%;
+        margin: 80px auto;
+    }
+
+    .tudo-card {
+
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        column-gap: 15px;
+
+        
+    }
+    .questao{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        column-gap: 15px;
+
+    }
+ 
+    nav{
+        position: absolute;
+        background-color: black;
+        height: 100vh;
+        width: 50%;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; 
+        transform: translateX(-100%);
+        transition: 1s;
+    }
+    
+    .btn--fechar{
+        display: none;
+    }
+    .btn--burguer{
+        display: block;
+    }
+
+}
+
+@media(max-width:663px){
+    body {
+        width: 90%;
+        margin: 80px auto;
+    }
+
+    .tudo-card {
+
+        grid-template-columns: 1fr ;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        row-gap: 10px;
+
+    }
+
+
+
+    .questao{
+        grid-template-columns: 1fr ;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        row-gap: 10px;
+    }
+
+
+
+        .logo{
+       grid-template-columns:1fr ;
+       /* align-items: center;
+       padding-left: 30px;
+        padding-right: 30px; */
+
+        }
+        nav{
+            display: none;
+            position: absolute;
+            background-color:black;
+            height: 100vh;
+            width: 50%;
+            top: 0;
+            left: 0;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            display: none;
+            /* transform: translateX(-100%); */
+        transition: 1s;
+        }
+
+        .btn--burguer{
+            display: block;
+        }
+        .btn--fechar{
+            display: none;
+        }
+
+
+
+
+
+}

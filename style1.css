@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   color:
+     #F21D2F
+     #F5811E
+     #F2B90C
+    #F2A413
+    #F26E22
+
+    
+    #D52C33
+    #F87F24
+    #FFBE1C
+
+}
+body{
+    font-family: 'Lato', sans-serif;
+    background-color:#221E1F ;
+    
+
+}
+
+h1{
+    color: #222222;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 22px;
+}
+
+img{
+    width: 238px;
+    height: 220px;
+    border-radius: 7%;
+    object-fit: cover;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* margin-bottom:80px; */
+    gap:100px;
+    color:  #F2F2F2;
+    padding-right: 80px;
+    /* margin-left: 30px; */
+}
+
+.usuario{
+display: flex;
+gap: 10px;
+align-items: center;
+justify-content: space-around;
+}
+
+.tudo-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    row-gap: 80px;
+    column-gap: 2px;
+    justify-items: center;
+    padding-left:150px ;
+    padding-right: 150px; }
+
+.card{
+    
+    width:280px ;
+    border: 2px solid #F2F2F2;
+    height: 450px;
+    border-radius: 5%;
+    background-color: #F2F2F2 ;
+}
+
+.foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.apartir{
+    color:#666666;
+    font-size: 14px;
+    margin: 22px;
+    
+}
+.cima,
+.baixo{
+    width: 95vw;
+}
+
+
+.preco{
+    color: #ef5928;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 22px;
+}
+
+.informacoes{
+    color:#666666;
+    font-size: 16px;
+    margin:15px ;
+}
+
+hr{
+    margin: 15px;
+    color: #666666;
+}
+
+button{
+
+/* text-transform: uppercase; */
+/* padding-left: 20%; */
+/* color: var(--offwhite); */
+letter-spacing: 2px;
+/* border: 2 px solid black; */
+border: 0.5px solid black;
+background-color: white;
+padding: 12px 60px;
+color: black;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+transition: 1s;
+}
+
+button:hover{
+color: white;
+background-image: linear-gradient( to right,#D52C33,#F87F24,#FFBE1C);
+/* background: linear-gradient(308.6deg, rgb(193, 2, 34) -7.94%, rgb(242, 71, 63) 79.38%); */
+border-top:3px solid  #F2B90C ;
+box-shadow: rgb(37 37 39 / 25%) 0.5rem 0.5rem 2rem 0px;
+}
+
+
+.botao{
+display: flex;
+align-items: center;
+justify-content: center;
+/* margin-top: 10px */
+}
+
+     
+
+.final{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 80px;
+    justify-items: center;
+    background-color: #DFDFDF;
+    margin-bottom: 3px;
+    padding-bottom: 10px;
+
+}
+
+
+
+p{
+    color: #666666;
+}
+
+.perguntas{
+    width:260px ;
+    border: 2px solid #F2F2F2;
+    height: 200px;
+    border-radius: 5%;
+    background-color: #F2F2F2;
+
+}
+.questao{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    justify-items: center;
+    column-gap: 10px;
+    margin-bottom: 100px;
+}
+
+h3{
+    color: #222222;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 22px;
+}
+
+.resposta{
+color:#666666;
+    font-size: 16px;
+    margin:15px ;
+    text-align: justify;
+}
+
+
+h2{
+color: #666666;
+margin-bottom: 20px;
+margin-top: 20px;
+margin-left: 80px;
+text-align: center;
+background-image: linear-gradient( to top,#D52C33,#F87F24,#FFBE1C);
+-webkit-text-fill-color: transparent;
+  
+  -webkit-background-clip: text;
+  background-clip:text;
+}
+.logo{
+width: auto;
+margin: 15px;
+
+}
+
+.cabecalho{
+display: flex;
+align-items: center;
+justify-content: space-around;
+text-transform: uppercase;
+
+}
+
+.pacotes, .idaevolta,.hoteis {
+color: white;
+}
+.fa-user{
+color: #F87F24;
+} 
+
+i:hover{
+    color: #F2B90C;
+    font: 400px;
+    
+    transition: 0.4;
+}
+
+.pergunta{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.baixo{
+ margin-top:50px ;
+}
+   
+.quarto{
+background-color: #DFDFDF;
+text-align: center;
+padding-top: 20px;
+}
+.fa-whatsapp{
+font-size: 40px;
+}
+.fa-instagram{
+font-size: 40px;
+}
+.fa-facebook{
+font-size: 40px;
+}
+
+.final-tudo{
+background-color: white;
+}
+
+.btn--burguer,
+.btn--fechar{
+font-size: 40px;
+color: #F2F2F2;
+display: none;
+
+}
+.Name{
+    color: #ef5928;
+    font-size:50px;
+    font-weight: bolder;
+    margin: 22px;
+}
+
+
